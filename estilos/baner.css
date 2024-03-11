@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*---------------------BANER---------------------*/
+.baner{
+    width: 100vw;
+    height: 797px;
+    background-image: url(../imagens/baner-img.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom ;
+    box-shadow: inset 0px 10px 0px 0px black ;
+}
+.baner-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    
+}
+.title{
+    width: 650px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#3a4042 ;
+    box-shadow: 7px 7px black;
+}
+.title h1{
+    font-weight: 400;
+    font-size: 35px;
+    font-family: "Press Start 2P", system-ui;
+    margin-bottom: 25px;
+    color: #f25a70;
+    text-shadow: 4px 4px black;
+}
+.title h2{
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "Press Start 2P", system-ui;
+    color: #ffffff;
+    text-shadow: 4px 4px black;
+}
+.btn-baner button{
+    width: 170px;
+    height: 60px;
+    margin: 35px;
+    border: none;
+    box-shadow: 5px 5px black;
+    background-color: #f25a70;
+    color: #ffffff;
+    font-family: "Fira Code", monospace;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-baner button:hover{
+    background-color: #83303d;
+}

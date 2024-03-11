@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifolio</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/cabecalho.css">
+    <link rel="stylesheet" href="estilos/baner.css">
+    <link rel="stylesheet" href="estilos/skills.css">
 </head>
 <body>
     <header>
@@ -55,26 +58,40 @@
 
             </div> <!--baner-->
     </main>
-    <section>
-            <div class="skills">
+    <section class="section-skills">
+        <h2 class="titulo -second">Skills</h2>
 
-                <div class="texto-skills">
-                    <h1>Skills</h1>
-                </div><!--Texto dentro do Skills-->
+        <dl class="skills"> <!--Description list-->
+            <dd class="icon">
+                <img src="imagens/html5-img.png" alt="Logo html em pixel arte">
+            </dd>
+            <dt class="title-skills">HTML</dt> 
+            <dd id="skill-html" class="progress-skills"> 
+                <progress max="100" value="45">45%</progress>
+            </dd>
+            
+        </dl>
+        <dl class="skills"> <!--Description list-->
+            <dd class="icon">
+                <img src="imagens/css3-img.png" alt="Logo css em pixel arte">
+            </dd>
+            <dt class="title-skills">CSS</dt>
+            <dd id="skill-css" class="progress-skills"> 
+                <progress max="100" value="45">45%</progress>
+            </dd>
+            
+        </dl>
 
-                <div class="lista-skills">
-                    <img src="imagens/html5-img.png" alt="HTML">
-                    <p>HTML</p>
-                    <div class="barra-skills">
-                        <div id="barra-branca">
-                            <div id="barra-roxa"></div>
-                        </div>
-                        
-                    </div>
-                </div><!--Lista de Skills-->
-
-            </div><!--Skills-->
+        <dl class="skills"> <!--Description list-->
+            <dd class="icon">
+                <img src="imagens/java-script-img.png" alt="Logo Java Scripit em pixel arte">
+            </dd>
+            <dt class="title-skills">JavaScript</dt>
+            <dd id="skill-java"class="progress-skills"> 
+                <progress max="100" value="45">45%</progress>
+            </dd>
+            
+        </dl>
     </section>
-
 </body>
 </html>
