@@ -21,17 +21,16 @@
     font-weight: 400;
     font-size: 25px;
     color: #ffff;
+    justify-content: center;
+}
+.skills#javaprogess{
+    margin-left: 35px;
 }
 .icon{
     height: 80px;
     margin-right: 20px;
 }
 
-.right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 progress{
     box-sizing: border-box;
     border: 4px solid #000;
@@ -43,3 +42,4 @@ progress{
 ::-webkit-progress-value{
     background-color: #7C5E99;
 }
+

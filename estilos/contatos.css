@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.contatos{
+    width: 100vw;
+    background-color: #3A4042;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    border-bottom: 10px solid #000000
+}
+.list-contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-contatos > #nome ,#email, #msg{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    font-family:"Fira Code", monospace;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+}
+#nome > input{
+    height: 35px;
+    border: 3px solid black;
+    font-family: "Fira Code", monospace;
+    text-indent: 1em;
+}
+#nome > input:invalid:required{
+    border:3px solid #000;
+}
+#nome > input:valid:required{
+    background-color: #a781ca;
+}
+#email > input{
+    height: 35px;
+    border: 3px solid black;
+    font-family: "Fira Code", monospace;
+    text-indent: 1em;
+}
+#email > input:invalid:required{
+    border:3px solid #000;
+}
+#email > input:valid:required{
+    background-color: #a781ca;
+}
+#msg > textarea{
+    border: 3px solid black;
+    padding: 10px;
+    font-family: "Fira Code", monospace;
+}
+#msg > textarea:invalid:required{
+    border:3px solid #000;
+}
+#msg > textarea:valid:required{
+    background-color: #a781ca;
+}
+
+.btn-enviar{
+    width: 90vw;
+    height: 45px;
+    margin-top: 25px;
+    border: none;
+    font-family: "Fira Code", monospace;
+    font-size: 20px;
+    color: white;
+    background-color: #F25A70;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+.btn-enviar:hover{
+    background-color: #83303d;
+}

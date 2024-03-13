@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="estilos/cabecalho.css">
     <link rel="stylesheet" href="estilos/baner.css">
     <link rel="stylesheet" href="estilos/skills.css">
+    <link rel="stylesheet" href="estilos/projetos.css">
+    <link rel="stylesheet" href="estilos/sobre.css">
+    <link rel="stylesheet" href="estilos/contatos.css">
+    <link rel="stylesheet" href="estilos/footer.css">
 </head>
 <body>
     <header>
@@ -75,23 +79,23 @@
                 </article> <!--Skill HTML-->
                 <article class="skills"> <!--Description list-->
             
-                <img class="icon" src="imagens/css3-img.png" alt="Logo css em pixel arte">
+                    <img class="icon" src="imagens/css3-img.png" alt="Logo css em pixel arte">
             
-                <div class="right">
-                    <h3 class="title-skills">CSS</h3>
-                    <progress max="100" value="25">25%</progress>
-                </div>
+                    <div class="right">
+                        <h3 class="title-skills">CSS</h3>
+                        <progress max="100" value="25">25%</progress>
+                    </div>
             
             
                 </article> <!--Skill CSS-->
-                <article class="skills"> <!--Description list-->
+                <article class="skills" id="javaprogess"> <!--Description list-->
             
-                <img class="icon" src="imagens/java-script-img.png" alt="Logo JavaScript em pixel arte">
-            
-                <div class="right">
-                    <h3 class="title-skills">JavaScript</h3>
-                    <progress max="100" value="3">3%</progress>
-                </div>
+                    <img class="icon" src="imagens/java-script-img.png" alt="Logo JavaScript em pixel arte">
+                
+                    <div class="javaprogess">
+                        <h3 class="title-skills">JavaScript</h3>
+                        <progress max="100" value="3">3%</progress>
+                    </div>
                 </article> <!--Skill JAVA SCRIPT-->
                 <article class="skills"> <!--Description list-->
 
@@ -102,51 +106,49 @@
                         <progress max="100" value="3">3%</progress>
                     </div>
                 </article> <!--Skill React-->
-                <article class="skills"> <!--Description list-->
-            
-                    <img class="icon" src="imagens/node-js-img.png" alt="Logo Node JS em pixel arte">
-                    
-                    <div class="right">
-                        <h3 class="title-skills">NodeJS</h3>
-                        <progress max="100" value="1">1%</progress>
-                    </div>
-                    
-                    </article> <!--Skill Node JS-->
-                    <article class="skills"> <!--Description list-->
-            
-                        <img class="icon" src="imagens/tdd-img.png" alt="Logo TDD em pixel arte">
-                    
-                        <div class="right">
-                            <h3 class="title-skills">TDD</h3>
-                            <progress max="100" value="1">1%</progress>
-                        </div>
-    
-                    </article><!--Skill TDD-->
-                    <article class="skills"> <!--Description list-->
-            
-                        <img class="icon" src="imagens/reset-api-img.png" alt="Logo Reset API em pixel arte">
-                    
-                        <div class="right">
-                            <h3 class="title-skills">Reset API</h3>
-                            <progress max="100" value="1">1%</progress>
-                        </div>
-                    
-                    
-                    </article><!--Skill Reset API-->
-                    <article class="skills"> <!--Description list-->
-            
-                        <img class="icon" src="imagens/ux-img.png" alt="Logo UX em pixel arte">
-                    
-                        <div class="right">
-                            <h3 class="title-skills">UX</h3>
-                            <progress max="100" value="1">1%</progress>
-                        </div>
-                    
-                    
-                    </article><!--Skill UX-->
-            </article>
+            </article> <!--Warpper-Skils-->
         </div>  
-        
     </section>
+    <section class="projetos">
+        <h2 class="titulo -second">Projetos</h2>
+        <div class="img-projetos">
+            <a href="#" target="_blank"><img src="imagens/img-perfil-menu.jfif" alt=""></a>
+
+            <a href="#" target="_blank"><img src="imagens/img-perfil-menu.jfif" alt=""></a>
+
+            <a href="#" target="_blank"><img src="imagens/img-perfil-menu.jfif" alt=""></a>
+        </div>
+    </section>
+    <section class="sobre">
+        <h2 class="titulo -second">Sobre</h2>
+        <div class="fal-sobre">
+            <p>Hoje, estudante e futuro desenvolvedor FrontEnd, Freddy já fez diversos cursos na área tendo como cursos HTML5 e CSS3, e iniciando na linguagem de Java Script. Ele achou muito interessante está área de trabalho pois desde quando era criança tinha curiosedade sobre o assundo, progrmar e desenvolver. Acabou se interessando pela área  de FrontEnd e hoje se encontra estudando para ser um otimo Dev. </p>
+        </div>
+    </section>
+    <section class="contatos">
+        <h2 class="titulo -second">Contatos</h2>
+        <div class="list-contatos">
+            <div id="nome">
+                <label for="iname">Nome</label>
+                <input type="text" name="name" id="iname" required maxlength="60" placeholder="name">
+            </div>
+            <div id="email">
+                <label for="iemail">Email</label>
+                <input type="email" name="" id="iemail" required maxlength="60" placeholder="@gmail.com">
+            </div>
+            <div id="msg">
+                <label for="imsg">Mensagem</label>
+                <textarea name="msg" id="imsg" cols="30" rows="12" required placeholder="deixe uma mensagem..."></textarea>
+            </div>
+            <input class="btn-enviar" type="submit" value="Enviar">
+        </div>
+    </section>
+    <footer class="rodape">
+        <div  class="img-rodape">
+            <a href="#"><img src="imagens/twitter-logo-img.png" alt=""></a>
+            <a href="#"><img src="imagens/youtube-logo-img.png" alt=""></a>
+            <a href="#"><img src="imagens/discord-logo-img.png" alt=""></a>
+        </div>
+    </footer>
 </body>
 </html>

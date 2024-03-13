@@ -3,7 +3,8 @@
 /*---------------------BANER---------------------*/
 .baner{
     width: 100vw;
-    height: 797px;
+    padding-top: 200px;
+    padding-bottom: 150px;
     background-image: url(../imagens/baner-img.jfif);
     background-repeat: no-repeat;
     background-size: cover;

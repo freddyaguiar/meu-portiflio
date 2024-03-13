@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.rodape{
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.img-rodape img{
+    width: 45px;
+    margin: 15px;
+}
