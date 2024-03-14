@@ -7,6 +7,9 @@
     padding-bottom: 80px;
     border-bottom: 10px solid #000000
 }
+.contatos h2{
+    margin-bottom: 20px;
+}
 .list-contatos{
     display: flex;
     flex-direction: column;
@@ -15,7 +18,7 @@
 .list-contatos > #nome ,#email, #msg{
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 75vw;
     font-family:"Fira Code", monospace;
     font-weight: 200;
     font-size: 20px;
@@ -58,7 +61,7 @@
 }
 
 .btn-enviar{
-    width: 90vw;
+    width: 75vw;
     height: 45px;
     margin-top: 25px;
     border: none;

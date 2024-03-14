@@ -1,0 +1,101 @@
+/*Telas Grandes*/
+
+@media screen and (min-width: 1200px){
+
+    /*Cabeçalho*/
+    .cabecalho{
+        
+        padding-right: 10%;
+        padding-left: 7%;
+    }
+    .btn-navegacao span{
+        display: none;
+    }
+
+    /*-----------------------*/
+
+    /*Baner*/
+    .title{
+        width: 700px;
+        height: 250px;
+    }
+    .title h1{
+        font-size: 38px;
+        margin-bottom: 35px;
+    }
+    .title h2{
+        font-size: 35px;
+    }
+
+    .btn-baner button{
+        width: 180px;
+        height: 70px;
+        margin:60px ;
+    }
+     /*--------------------*/
+
+      /*Projetos*/
+      .projetos{
+        padding-top: 100px;
+        padding-bottom: 150px;
+      }
+      .projetos h2{
+        margin-bottom: 30px;
+    }
+      .img-projetos  img{
+        margin: 55px;
+    }
+     /*--------------------*/
+
+      /*Sobre*/
+      .sobre{
+        padding-top: 190px;
+        padding-bottom: 200px;
+    }
+    .sobre h2 {
+        margin-bottom: 50px;
+    }
+    .fal-sobre{
+        width: 60vw;
+        margin: auto;
+        font-size: 25px;
+    }
+    /*-------------------*/
+
+    /*Contatos*/
+    .contatos{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    
+    .list-contatos > #nome ,#email, #msg{
+        width: 59vw;
+        font-weight: 200;
+        font-size: 20px;
+        margin: 5px;
+    }
+    #nome > input{
+        height: 50px;
+    }
+    #email > input{
+        height: 50px;
+    }
+    .btn-enviar{
+        width: 59vw;
+        height: 50px;
+        margin-top: 25px;
+        font-size: 20px;  
+    }
+    /*Footer*/
+    .rodape{
+        width: 100vw;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .img-rodape img{
+        width: 45px;
+        margin: 15px;
+    }
+}

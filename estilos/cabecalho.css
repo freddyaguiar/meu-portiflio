@@ -4,21 +4,36 @@
 .cabecalho{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 80px;
     background-color: #7C5E99;
-    
+}
+.img-menu{
+    width: 25vw;
 }
 .img-menu > img{
     display: flex;
     width: 60px;
-    margin: 10px 20px;
-    box-shadow: 3px 3px black;
+    margin: 10px 12vw;
+    box-shadow: 5px 5px black;
+}
+.btn-navegacao span{
+    display: none;
+}
+span#burger{
+    color: #fff;
+    text-shadow: 3px 3px black;
+}
+.material-symbols-outlined{
+    font-size: 70px;
+    font-weight: 400;
 }
 .btn-navegacao{
     display: flex;
     justify-content: right;
     width: 100vw;
+    margin-right:9vw;
 }
 .btn-navegacao ul{
     display: flex;

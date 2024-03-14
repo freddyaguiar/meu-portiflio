@@ -21,8 +21,8 @@
     
 }
 .title{
-    width: 650px;
-    height: 200px;
+    width: 600px;
+    height: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@
 }
 .title h1{
     font-weight: 400;
-    font-size: 35px;
+    font-size: 32px;
     font-family: "Press Start 2P", system-ui;
     margin-bottom: 25px;
     color: #f25a70;
@@ -40,7 +40,7 @@
 }
 .title h2{
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     font-family: "Press Start 2P", system-ui;
     color: #ffffff;
     text-shadow: 4px 4px black;

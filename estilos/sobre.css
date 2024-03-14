@@ -11,8 +11,8 @@
     margin-bottom: 50px;
 }
 .fal-sobre{
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 75vw;
+    margin: auto;
     text-align: justify;
     font-family: "Fira Code", monospace;
     font-size: 25px;
