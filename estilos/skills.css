@@ -12,6 +12,9 @@
 .section-skills h2{
     margin-bottom: 80px;
 }
+.right h3 {
+    margin-bottom: 10px;
+}
 
 .skills{
     display: flex;
