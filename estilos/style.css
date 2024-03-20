@@ -7,6 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, html{
+    width: 100vw;
+}
 ::-webkit-scrollbar{
     width: 0px;
     height: 0px;
