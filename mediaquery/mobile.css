@@ -53,4 +53,64 @@ menu{
 .btn-navegacao button{
     display: none;
 }
+/*---------------------BANER---------------------*/
+
+.baner{
+    padding-top: 190px;
+    padding-bottom: 140px;
+}
+.title{
+    width: 450px;
+    height: 160px;
+}
+.title h1{
+    font-size: 28px;
+}
+.title h2{
+    font-size: 22px;
+}
+
+/*---------------------SKILLS---------------------*/
+.section-skills{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-skills h2{
+    margin-bottom: 50px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffff;
+    justify-content: center;
+}
+
+/*---------------------PROJETOS---------------------*/
+.projetos{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.projetos h2{
+    margin-bottom: 40px;
+}
+.img-projetos  img{
+    width: 110px;
+    box-shadow: 7px 7px #fff;
+    margin: 20px;
+}
+
+/*---------------------SOBRE---------------------*/
+.sobre{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.fal-sobre{
+    width: 89vw;
+    font-size: 25px;
+}
+
 }
